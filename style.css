@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.container{
+    border: 0.2rem solid;
+    padding: 3rem;
+    background-color: rgb(252, 152, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color: rgb(70, 43, 226);
+}
+.stopwatch-container{
+    margin-top: 1rem;
+}
+#timerdisplay{
+    font-size: 3rem;
+}
+button{
+    padding:0.5rem 1rem;
+    margin: 1rem 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+#pause{
+    background-color: rgb(102, 102, 235);
+}
+#start{
+    background-color: rgb(107, 228, 59);
+}
+#reset{
+    background-color: rgb(248, 4, 4);
+}
+
+@media (max-width:650px) {
+    .container{
+        width: 60%;
+    }
+    h1{
+        font-size:2rem;
+    }
+    #timerdisplay{
+        font-size: 2rem;
+}
+button{
+    padding:0.5rem 0.3rem;
+    margin: 0.5rem 0.2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+}
+@media (max-width:510px) {
+    .container{
+        width: 60%;
+    }
+    h1{
+        font-size:1.5rem;
+    }
+    #timerdisplay{
+        font-size: 1.5rem;
+}
+button{
+    padding:0.5rem 0.2rem;
+    margin: 0.8rem 0.2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+}
+}
+
+
+
+
+
+
