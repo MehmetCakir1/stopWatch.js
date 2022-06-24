@@ -38,6 +38,7 @@ button{
     font-weight: 600;
     font-size: 1rem;
     border-radius: 0.5rem;
+    cursor:pointer;
 }
 #pause{
     background-color: rgb(102, 102, 235);
